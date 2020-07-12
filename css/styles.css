@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+
+ }
+
+ h2{
+     color: brown;
+     font-size: medium;
+     text-align: center;
+ }
+ .img{
+     background-color: rgb(170, 60, 43);
+     float: inline-end;
+ }
+ .box{
+    border-left: 2px solid red;
+    border-right: 4px solid blue;
+    border-top: 6px solid orange;
+    border-bottom: 8px sopadding: 6px;
+    padding: 6px;
+    margin: 20px;
+}
+.important{
+    color: chocolate;
+
+}
+  .sidebar {
+    width: 20%;
+    float: right;
+    background-color: rgb(0, 255, 0);
+  }

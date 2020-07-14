@@ -16,9 +16,18 @@ h1 {
      font-size: medium;
      text-align: center;
  }
+ @media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        background-color: black;
+        color: darkcyan;
+        padding: 4%;
+    }
+}
  .img{
      background-color: rgb(170, 60, 43);
      float: inline-end;
+     width: 10%;
+     padding: 3%;
  }
  .box{
     border-left: 2px solid red;
@@ -32,8 +41,9 @@ h1 {
     color: chocolate;
 
 }
-  .sidebar {
-    width: 20%;
+
+  .column{
+    width: 10%;
     float: right;
     background-color: rgb(0, 255, 0);
   }
